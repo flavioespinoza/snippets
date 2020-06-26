@@ -14,7 +14,7 @@ My shellcheck version: 0.7.1
 - The rule's wiki page does not already cover this.
 - Tried on [shellcheck.net](https://shellcheck.net) and verified that this is still a problem on the latest commit.
 
-Here's a snippet or screenshot that shows the problem:
+Here's a snippet:
 ```shell
 #!/bin/sh
 op='+'
