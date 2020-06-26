@@ -1,13 +1,14 @@
 # snippets
 Code snippets I don't want to forget
 
-# snippets
 
-## Using an arithmetic operator inside a variable
+### Using an arithmetic operator inside a variable
+
 - https://github.com/koalaman/shellcheck/issues/2000
  
+**`Rule Id`**: SC1102
+
 For bugs
-Rule Id: SC1102
 
 My shellcheck version: 0.7.1
  The rule's wiki page does not already cover this
