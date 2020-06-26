@@ -35,9 +35,10 @@ Using an arithmetic operator inside a variable is fine in busybox's sh and in ba
 ```shell
 $ docker run --rm -v "$PWD:/mnt" alpine sh /mnt/op.sh 
 
- 3
+3
 ```
 ```shell
 $ bash op.sh
 
- 3
+3
+```
