@@ -20,7 +20,7 @@ Here's a snippet:
 op='+'
 echo "$((1 $op 2))"
 ```
-shellcheck.net error
+This is the shellcheck.net output showing the issues:
 ```shell
 $ shellcheck myscript
  
