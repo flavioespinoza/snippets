@@ -19,6 +19,9 @@ Here's a snippet or screenshot that shows the problem:
 #!/bin/sh
 op='+'
 echo "$((1 $op 2))"
+```
+shellcheck.net error
+```shell
 Here's what shellcheck currently says:
 Line 3:
 echo "$((1 $op 2))"
