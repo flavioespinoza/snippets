@@ -22,11 +22,14 @@ echo "$((1 $op 2))"
 ```
 shellcheck.net error
 ```shell
-Here's what shellcheck currently says:
+$ shellcheck myscript
+ 
 Line 3:
 echo "$((1 $op 2))"
      ^-- SC2005: Useless echo? Instead of 'echo $(cmd)', just use 'cmd'.
       ^-- SC1102: Shells disambiguate $(( differently or not at all. For $(command substition), add space after $( . For $((arithmetics)), fix parsing errors.
+
+$
 ```
 
 Here's what I wanted or expected to see:
